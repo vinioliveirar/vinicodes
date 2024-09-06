@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Portfolio - Vinicius O. - Descomplica</title>
+    <title>Portfolio - Vinicius O.</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
 
@@ -69,7 +69,8 @@
     <main class="main">
       <!-- Hero Section -->
       <section id="hero" class="hero section light-background">
-        <img src="assets/img/bg-banner.png" alt="" />
+        <img class="d-block d-sm-none" src="assets/img/bg-mobile.png" alt="" />
+        <img class="d-none d-sm-block" src="assets/img/bg-banner.png" alt="" />
 
         <div class="container" data-aos="zoom-out">
           <div class="row justify-content-center">
@@ -80,10 +81,11 @@
                 ><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span>
               </p>
               <div class="social-links">
-                <a href="#"><i class="bi bi-twitter-x"></i></a>
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
+                <a target="_blank" href="https://github.com/vinioliveirar/"><i class="bi bi-github"></i></a>
+                <!-- <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-skype"></i></a> -->
+                <a target="_blank" href="https://www.linkedin.com/in/vinioliveirar/"><i class="bi bi-linkedin"></i></a>
               </div>
             </div>
           </div>
@@ -487,11 +489,8 @@
       <section id="services" class="services section">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-          <h2>Services</h2>
-          <p>
-            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
-            quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
-          </p>
+          <h2>Serviços</h2>
+
         </div>
         <!-- End Section Title -->
 
@@ -673,7 +672,7 @@
             </div>
 
             <div class="col-lg-8">
-              <form class="php-email-form" name="contact" method="post" data-netlify="true" data-aos="fade-up" data-aos-delay="200">
+              <form class="php-email-form" name="contact" method="post" netlify data-netlify="true" data-aos="fade-up" data-aos-delay="200">
                 <div class="row gy-4">
                   <div class="col-md-6">
                     <input type="text" name="name" class="form-control" placeholder="Diga seu nome" required="" />
